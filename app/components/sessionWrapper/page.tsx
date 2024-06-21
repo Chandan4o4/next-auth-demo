@@ -2,7 +2,7 @@
 import { SessionProvider } from "next-auth/react";
 
 export const SessionWrapper = ({ children }: { children: React.ReactNode }) => {
-  return <SessionProvider>{children}</SessionProvider>;
+  return <SessionProvider>{childr}</SessionProvider>;
 };
 
 //test for git from chandan branch
